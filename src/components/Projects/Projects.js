@@ -1,11 +1,10 @@
-import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 import { projects } from "../../constants/constants";
 import {
   Section,
   SectionDivider,
-  SectionTitle,
+  SectionTitle
 } from "../../styles/GlobalComponents";
 import {
   BlogCard,
@@ -17,7 +16,7 @@ import {
   ProjectLink,
   Tag,
   TagList,
-  TitleContent,
+  TitleContent
 } from "./ProjectsStyles";
 
 const Projects = () => (
@@ -30,12 +29,9 @@ const Projects = () => (
           <Link href={`/project/${id}`} key={id}>
             <a className={ProjectLink}>
               <BlogCard key={id}>
-                <Image
+                <Img
                   src={image}
                   alt={title}
-                  placeholder="blur"
-                  className={Img}
-                  layout="intrinsic"
                 />
                 <TitleContent>
                   <HeaderThree title={title}>{title}</HeaderThree>
@@ -51,14 +47,6 @@ const Projects = () => (
                     ))}
                   </TagList>
                 </div>
-                {/* <UtilityList>
-                  <ExternalLinks href={visit} target="_blank">
-                    Code
-                  </ExternalLinks>
-                  <ExternalLinks href={source} target="_blank">
-                    Source
-                  </ExternalLinks>
-                </UtilityList> */}
               </BlogCard>
             </a>
           </Link>

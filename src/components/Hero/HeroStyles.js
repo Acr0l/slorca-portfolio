@@ -38,9 +38,12 @@ export const RightSection = styled.div`
   }
 `;
 
-export const Img = styled.div`
+export const Img = styled.img`
+  border-radius: 9%;
+  width: 100%;
+  height: 100%;
   object-fit: cover;
-  border-radius: 50%;
+  overflow: hidden;
 `;
 
 export const Wrapper = styled.div`

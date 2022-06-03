@@ -1,13 +1,11 @@
-import Image from "next/image";
 import React from "react";
-import seba from "../../../public/images/seba.jpeg";
 import {
   Section,
   SectionText,
-  SectionTitle,
+  SectionTitle
 } from "../../styles/GlobalComponents";
 import Button from "../../styles/GlobalComponents/Button";
-import { LeftSection, RightSection, Wrapper } from "./HeroStyles";
+import { Img, LeftSection, RightSection } from "./HeroStyles";
 
 const Hero = (props) => (
   <Section row nopadding>
@@ -30,16 +28,10 @@ const Hero = (props) => (
       </Button>
     </LeftSection>
     <RightSection>
-      <Wrapper>
-        <Image
-          src={seba}
-          placeholder="blur"
-          width={3200}
-          height={4800}
-          layout="responsive"
+        <Img
+          src={"/images/seba.jpeg"}
           alt="Sebastian Lorca's picture"
         />
-      </Wrapper>
     </RightSection>
   </Section>
 );

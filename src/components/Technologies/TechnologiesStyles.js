@@ -184,7 +184,10 @@ export const StackImgContainer = styled.div`
 `;
 
 export const StackImg = styled.img`
-  max-width: 100%;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  overflow: hidden;
 `;
 
 export const StackTitle = styled.span`

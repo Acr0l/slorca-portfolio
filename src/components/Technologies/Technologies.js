@@ -1,11 +1,10 @@
-import Image from "next/image";
 import React from "react";
 import { Stack } from "../../constants/constants";
 import {
   Section,
   SectionDivider,
   SectionText,
-  SectionTitle,
+  SectionTitle
 } from "../../styles/GlobalComponents";
 import {
   StackContent,
@@ -13,7 +12,7 @@ import {
   StackImgContainer,
   StackItem,
   StackList,
-  StackTitle,
+  StackTitle
 } from "./TechnologiesStyles";
 
 const Technologies = () => (
@@ -29,12 +28,9 @@ const Technologies = () => (
         <StackItem key={stack.text}>
           <StackContent>
             <StackImgContainer>
-              <Image
-                className={StackImg}
+              <StackImg
                 src={stack.source}
                 alt={`${stack.text} Icon`}
-                height={stack.height}
-                width={stack.width}
                 layout="responsive"
               />
             </StackImgContainer>
