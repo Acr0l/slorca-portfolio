@@ -27,6 +27,7 @@ export const projects = [
     title: "Quantum Computing",
     description:
       "In grade 11 I was accepted to the Qubit by Qubit High School Introduction to Quantum Computing course. I was able to learn about quantum computing and how to use it in my own projects. I was also able to learn about quantum mechanics and its impact in the current society.",
+    text: "Quantum Computing is a developing field, and I enrolled in the Qubit by Qubit Hich School Introduction to Quantum Computing with the objective of understanding and applying QC in my own projects.\n I learned Qiskit, a python library developed by IBM, and how QC works, as well as the basics of quantum mechanics.",
     image: quantum,
     tags: ["Quantum Computing", "Python", "Qiskit"],
     source: "https://verified.cv/en/verify/82579078660284",
