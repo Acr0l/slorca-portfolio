@@ -1,5 +1,6 @@
+import Image from "next/image";
 import React from "react";
-import { DiFirebase, DiReact, DiUnitySmall, DiMongodb } from "react-icons/di";
+import { Stack } from "../../constants/constants";
 import {
   Section,
   SectionDivider,
@@ -7,11 +8,12 @@ import {
   SectionTitle,
 } from "../../styles/GlobalComponents";
 import {
-  List,
-  ListContainer,
-  ListItem,
-  ListParagraph,
-  ListTitle,
+  StackContent,
+  StackImg,
+  StackImgContainer,
+  StackItem,
+  StackList,
+  StackTitle,
 } from "./TechnologiesStyles";
 
 const Technologies = () => (
@@ -22,45 +24,25 @@ const Technologies = () => (
     <SectionText>
       I have experience with the following technologies:
     </SectionText>
-    <List>
-      <ListItem>
-        <DiReact size={"3rem"} />
-        <ListContainer>
-          <ListTitle>Front-End</ListTitle>
-          <ListParagraph>
-            Experience with <br />
-            React.js
-          </ListParagraph>
-        </ListContainer>
-      </ListItem>
-    </List>    
-    <List>
-      <ListItem>
-        <DiFirebase size={"3rem"} />
-        <ListContainer>
-          <ListTitle>Back-End</ListTitle>
-          <ListParagraph>
-            Experience with <br />
-            Node.js and 
-            Databases <br />
-            <DiMongodb size={"3rem"} />
-            (MongoDB)
-          </ListParagraph>
-        </ListContainer>
-      </ListItem>
-    </List>
-    <List>
-      <ListItem>
-        <DiUnitySmall size={"3rem"} />
-        <ListContainer>
-          <ListTitle>Game Design</ListTitle>
-          <ListParagraph>
-            Experience with <br />
-            Unity
-          </ListParagraph>
-        </ListContainer>
-      </ListItem>
-    </List>
+    <StackList>
+      {Stack.map((stack) => (
+        <StackItem key={stack.text}>
+          <StackContent>
+            <StackImgContainer>
+              <Image
+                className={StackImg}
+                src={stack.source}
+                alt={`${stack.text} Icon`}
+                height={stack.height}
+                width={stack.width}
+                layout="responsive"
+              />
+            </StackImgContainer>
+            <StackTitle>{stack.text}</StackTitle>
+          </StackContent>
+        </StackItem>
+      ))}
+    </StackList>
   </Section>
 );
 

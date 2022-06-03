@@ -1,7 +1,8 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 export const LeftSection = styled.div`
   width: 100%;
+  justify-content: center;
   @media ${(props) => props.theme.breakpoints.sm} {
     width: 80%;
     display: flex;
@@ -16,4 +17,34 @@ export const LeftSection = styled.div`
 
     margin: 0 auto;
   }
+`;
+
+export const RightSection = styled.div`
+  width: 2000px;
+  margin: 0 50px;
+  @media ${(props) => props.theme.breakpoints.sm} {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+
+    margin: 0 auto;
+  }
+  @media ${(props) => props.theme.breakpoints.md} {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+    margin: 0 auto;
+  }
+`;
+
+export const Img = styled.div`
+  object-fit: cover;
+  border-radius: 50%;
+`;
+
+export const Wrapper = styled.div`
+  position: relative;
+  overflow: hidden;
+  border-radius: 10%;
 `;
