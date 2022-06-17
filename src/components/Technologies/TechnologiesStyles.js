@@ -1,5 +1,6 @@
 import styled from "styled-components";
 
+// @ts-ignore
 export const ImageContainer = styled.div`
   text-align: center;
   background-image: radial-gradient(
@@ -54,6 +55,7 @@ export const List = styled.ul`
   }
 `;
 
+// @ts-ignore
 export const ListContainer = styled.div`
   display: flex;
   flex-direction: column;
@@ -136,6 +138,7 @@ export const ListIcon = styled.img`
   }
 `;
 
+// @ts-ignore
 export const StackList = styled.div`
   display: flex;
   flex-direction: row;
@@ -144,25 +147,28 @@ export const StackList = styled.div`
   text-align: center;
 `;
 
+// @ts-ignore
 export const StackItem = styled.div`
   box-sizing: border-box;
   flex-basis: 25%;
   max-width: 25%;
   padding: 0 15px;
   margin-bottom: 30px;
-  @media ${(props) => props.theme.breakpoints.sm} {
-    box-sixing: border-box;
-    flex-basis: 50%;
-    max-width: 50%;
-  }
 
   @media ${(props) => props.theme.breakpoints.md} {
     box-sizing: border-box;
     max-width: 33.33%;
     flex-basis: 33.33%;
-  }
+  };
+
+  @media ${(props) => props.theme.breakpoints.sm} {
+    box-sizing: border-box;
+    max-width: 50%;
+    flex-basis: 50%;
+  };
 `;
 
+// @ts-ignore
 export const StackContent = styled.div`
   flex-direction: row;
   padding: 3.5rem 1.7rem;
@@ -175,6 +181,7 @@ export const StackContent = styled.div`
   text-align: center;
 `;
 
+// @ts-ignore
 export const StackImgContainer = styled.div`
   margin-right: 16px;
   max-width: 60px;

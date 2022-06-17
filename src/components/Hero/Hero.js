@@ -7,10 +7,15 @@ import {
 import Button from "../../styles/GlobalComponents/Button";
 import { Img, LeftSection, RightSection } from "./HeroStyles";
 
+// @ts-ignore
 const Hero = (props) => (
-  <Section row nopadding>
+  <Section 
+// @ts-ignore
+  row nopadding>
     <LeftSection>
-      <SectionTitle main center>
+      <SectionTitle 
+// @ts-ignore
+      main center>
         Hello There! <br />
         I'm Sebastian Lorca
       </SectionTitle>
@@ -22,6 +27,7 @@ const Hero = (props) => (
         multiple projects to impact the community through them.
       </SectionText>
       <Button
+        // @ts-ignore
         onClick={() => (window.location = "https://kimmweb.herokuapp.com")}
       >
         Learn More

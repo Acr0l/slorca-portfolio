@@ -21,7 +21,7 @@ export const projects = [
     tags: ["Basic Stamp", "Arduino", "3D Printing"],
     source: "https://neoeduca.cl",
     visit: "https://neoeduca.cl",
-    id: 0,
+    id: "robotics",
   },
   {
     title: "Quantum Computing",
@@ -32,7 +32,7 @@ export const projects = [
     tags: ["Quantum Computing", "Python", "Qiskit"],
     source: "https://verified.cv/en/verify/82579078660284",
     visit: "https://www.qubitbyqubit.org/",
-    id: 1,
+    id: "quantum-computing",
   },
   {
     title: "Kimm Education",
@@ -42,7 +42,7 @@ export const projects = [
     tags: ["React", "MongoDB", "Express", "Node.js"],
     source: "https://kimmweb.herokuapp.com",
     visit: "https://kimmweb.herokuapp.com",
-    id: 2,
+    id: "kimm",
   },
   {
     title: "Charlas Duam",
@@ -52,7 +52,7 @@ export const projects = [
     tags: ["Community", "Technology", "Leadership"],
     source: "https://sebastianlorca.com",
     visit: "https://sebastianlorca.com",
-    id: 3,
+    id: "duam-talks",
   },
   {
     title: "In Progress - Personal Blog",
@@ -62,7 +62,7 @@ export const projects = [
     tags: ["React", "MongoDB", "Express", "Node.js"],
     source: "https://blog.sebastianlorca.com",
     visit: "https://blog.sebastianlorca.com",
-    id: 4,
+    id: 'personal-blog',
   },
   {
     title: "Lookation",
@@ -73,7 +73,7 @@ export const projects = [
     source:
       "https://drive.google.com/drive/folders/1ZPZmCV_6ZCSTt5zpCgVQuO1g7bsIdJ2p?usp=sharing",
     visit: "https://www.instagram.com/_lookation/",
-    id: 5,
+    id: "lookation",
   },
 ];
 
