@@ -1,4 +1,4 @@
-import React from "react";
+import Link from "next/link";
 import {
   Section,
   SectionText,
@@ -26,12 +26,11 @@ const Hero = (props) => (
         pursue a path towards Computer Science, and I have been developing
         multiple projects to impact the community through them.
       </SectionText>
-      <Button
-        // @ts-ignore
-        onClick={() => (window.location = "https://kimmweb.herokuapp.com")}
-      >
-        Learn More
-      </Button>
+      <Link href="/pdf/seba_cv.pdf">
+        <Button>
+          View Resume
+        </Button>
+      </Link>
     </LeftSection>
     <RightSection>
         <Img

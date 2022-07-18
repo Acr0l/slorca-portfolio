@@ -17,7 +17,7 @@ export const Layout = ({ children }) => {
         />
         <meta
           name="description"
-          content="Sebastian Lorca is a software engineer based in Santiago, Chile. He is passionate about communicating his ideas through technology and friendly interfaces."
+          content="Sebastian Lorca is a high school student based in Santiago, Chile. He is passionate about communicating his ideas through technology and leadership."
         />
 
         {/* Open Graph / Facebook  */}
@@ -29,7 +29,7 @@ export const Layout = ({ children }) => {
         />
         <meta
           property="og:description"
-          content="Sebastian Lorca is a software engineer based in Santiago, Chile. He is passionate about communicating his ideas through technology and friendly interfaces."
+          content="Sebastian Lorca is a high school student based in Santiago, Chile. He is passionate about communicating his ideas through technology and leadership."
         />
         <meta property="og:image" content="https://i.imgur.com/hInWP1N.jpg?1" />
 
@@ -42,7 +42,7 @@ export const Layout = ({ children }) => {
         />
         <meta
           property="twitter:description"
-          content="Sebastian Lorca is a software engineer based in Santiago, Chile. He is passionate about communicating his ideas through technology and friendly interfaces."
+          content="Sebastian Lorca is a high school student based in Santiago, Chile. He is passionate about communicating his ideas through technology and leadership."
         />
         <meta
           property="twitter:image"

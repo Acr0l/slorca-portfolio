@@ -2,7 +2,7 @@
 import Head from "next/head";
 import Link from "next/link";
 import {
-  Img, LeftSection,
+  LeftSection,
   RightSection
 } from "../../components/Hero/HeroStyles";
 import { Layout } from "../../layout/Layout";
@@ -56,12 +56,17 @@ const Quantum = () => {
             </h2>
           </LeftSection>
           <RightSection>
-            <SectionText>
-              <Img
-                src={"/images/qc/qc_notebook.PNG"}
-                alt="Quantum Computer Jupyter Notebook code"
-              />
-            </SectionText>
+            <img
+              style={{
+                borderRadius: "9%",
+                width: "50vh",
+                height: "100%",
+                objectFit: "contain",
+                overflow: "hidden",
+              }}
+              src={"/images/qc/qc_notebook.PNG"}
+              alt="Quantum Computer Jupyter Notebook code"
+            />
           </RightSection>
         </Section>
       </Layout>

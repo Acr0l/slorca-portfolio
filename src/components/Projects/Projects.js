@@ -4,7 +4,7 @@ import { projects } from "../../constants/constants";
 import {
   Section,
   SectionDivider,
-  SectionTitle
+  SectionTitle,
 } from "../../styles/GlobalComponents";
 import {
   BlogCard,
@@ -16,7 +16,7 @@ import {
   ProjectLink,
   Tag,
   TagList,
-  TitleContent
+  TitleContent,
 } from "./ProjectsStyles";
 
 const Projects = () => (
@@ -29,10 +29,7 @@ const Projects = () => (
           <Link href={`/project/${id}`} key={id}>
             <a className={ProjectLink}>
               <BlogCard key={id}>
-                <Img
-                  src={image}
-                  alt={title}
-                />
+                <Img src={image} alt={title} />
                 <TitleContent>
                   <HeaderThree title={title}>{title}</HeaderThree>
                   <Hr />

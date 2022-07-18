@@ -1,4 +1,4 @@
-import React from "react";
+// @ts-nocheck
 import { getSortedPostsData } from "../../../lib/posts";
 import BlogComponent from "../../components/Blog/Blog";
 import { Layout } from "../../layout/Layout";

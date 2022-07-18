@@ -11,7 +11,7 @@ const Robotics = () => {
       </Head>
       <Layout>
         <h1>Robotics</h1>
-        <p>How it all started...</p>
+        <p>During my time in </p>
         <br/>
         <h2>
           <Link href="/">
