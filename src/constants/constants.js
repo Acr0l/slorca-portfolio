@@ -1,17 +1,3 @@
-// import duam from "../../public/images/4.png";
-// import T17 from "../../public/images/Basic-T17.jpeg";
-// import gitIcon from "../../public/images/icons/git_icon.png";
-// import jsIcon from "../../public/images/icons/js_icon.png";
-// import mongoIcon from "../../public/images/icons/MongoDB_icon.png";
-// import nextIcon from "../../public/images/icons/nextjs_icon.png";
-// import nodeJsIcon from "../../public/images/icons/nodejs_icon.png";
-// import pyIcon from "../../public/images/icons/py_icon.png";
-// import reactIcon from "../../public/images/icons/reactjs_icon.png";
-// import unityIcon from "../../public/images/icons/unity_icon.png";
-// import kimm from "../../public/images/kimm.png";
-// import lookation from "../../public/images/lookation.png";
-// import quantum from "../../public/images/quantum-computing.jpeg";
-// import youtube from "../../public/images/youtube.png";
 export const projects = [
   {
     title: "Robotics Competitions",
@@ -75,6 +61,15 @@ export const projects = [
     visit: "https://www.instagram.com/_lookation/",
     id: "lookation",
   },
+  {
+    title: "Mathematics Reasoning Program",
+    description: "The Taller de Razonamiento Matemático program teaches students about number theory, geometry, binomial expansion, and other topics related to mathematics seen in highschool but taken to new depths, letting the student understand how things work, instead of the simplified version taught in schools.",
+    image: "images/trm-logo.jpg",
+    tags: ["Mathematics", "Program", "Reasoning"],
+    source: "https://www.trm.mat.uc.cl",
+    visit: "https://www.trm.mat.uc.cl",
+    id: "trm",
+  }
 ];
 
 export const TimeLineData = [
