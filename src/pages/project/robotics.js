@@ -32,7 +32,7 @@ const Robotics = () => {
           </SectionText>
           <br />
           <h2>
-            <Link href="/">
+            <Link href="/#projects">
               <a>Back to home</a>
             </Link>
           </h2>

@@ -69,6 +69,15 @@ export const projects = [
     source: "https://www.trm.mat.uc.cl",
     visit: "https://www.trm.mat.uc.cl",
     id: "trm",
+  },
+  {
+    title: "Helix - Biology Journal",
+    description: "Helix is a journal that publishes articles on the topic of biology, and I am the current web developer of the journal.",
+    image: "images/helix.png",
+    tags: ["Journal", "Web Development", "React"],
+    source: "https://helixbiojournal.com/",
+    visit: "https://helixbiojournal.com/",
+    id: "helix",
   }
 ];
 

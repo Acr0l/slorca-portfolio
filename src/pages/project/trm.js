@@ -13,6 +13,10 @@ const Trm = () => {
     <>
       <Head>
         <title>TRM | Sebastian Lorca</title>
+        <meta
+          name="description"
+          content="Sebastian loves Math, and he took an advanced course to improve himself and understand how simple concepts can be used to build complex theorems."
+        />
       </Head>
       <Layout>
         <Section>
@@ -23,13 +27,13 @@ const Trm = () => {
             competitions and olympiads, many of them from the school, but also
             from other regional and national scope. After demonstrating my
             interest in the area, I took a course offered by the{" "}
-            <Link href="https://www.uc.cl">
-              <a>Pontificia Universidad Católica de Chile</a>
-            </Link>
+            <a href="https://www.uc.cl" rel="noopener">
+              Pontificia Universidad Católica de Chile
+            </a>
             , called{" "}
-            <Link href="https://trm.mat.uc.cl" ref="noopener">
-              <a>Taller de Razonamiento Matemático</a>
-            </Link>
+            <a href="https://www.trm.mat.uc.cl" rel="noopener">
+              Taller de Razonamiento Matemático
+            </a>
             . This course, that lasted two years, allowed me to develop my
             logical analysis and reasoning skills. I had to face challenging
             problems that required strategic thinking and problem solving to get
@@ -41,7 +45,7 @@ const Trm = () => {
           </SectionText>
           <br />
           <h2>
-            <Link href="/">
+            <Link href="/#projects">
               <a>Back to home</a>
             </Link>
           </h2>

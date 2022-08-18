@@ -1,10 +1,7 @@
 // @ts-nocheck
 import Head from "next/head";
 import Link from "next/link";
-import {
-  LeftSection,
-  RightSection
-} from "../../components/Hero/HeroStyles";
+import { LeftSection, RightSection } from "../../components/Hero/HeroStyles";
 import { Layout } from "../../layout/Layout";
 import {
   Section,
@@ -17,6 +14,10 @@ const Quantum = () => {
     <>
       <Head>
         <title>Quantum Computing | Sebastian Lorca</title>
+        <meta
+          name="description"
+          content="Sebastian has a passion for quantum computing, being reflected on the interest the course imparted by Qubit by Qubit had in him."
+        />
       </Head>
       <Layout>
         <Section row>
@@ -26,18 +27,13 @@ const Quantum = () => {
             </SectionTitle>
             <SectionText>
               The course{" "}
-              <a
-                href="https://verified.cv/en/verify/82579078660284"
-                rel="noopener"
-              >
+              <a href="https://verified.cv/en/verify/82579078660284">
                 High School Introduction to Quantum Computing
               </a>
               , offered by Qubit by Qubit was a unique opportunity for me to
               learn more about quantum mechanics, python, and{" "}
-              <a href="https://qiskit.org/" rel="noopener">
-                Qiskit
-              </a>{" "}
-              (an IBM developed library to communicate with quantum computers).
+              <a href="https://qiskit.org/">Qiskit</a> (an IBM developed library
+              to communicate with quantum computers).
               <br />
               <br />I started without any prior knowledge of quantum mechanics,
               and little knowledge about Python, but I was able to learn a lot
@@ -50,7 +46,7 @@ const Quantum = () => {
               the concepts and explained them in a simple manner.
             </SectionText>
             <h2>
-              <Link href="/">
+              <Link href="/#projects">
                 <a>Back to home</a>
               </Link>
             </h2>

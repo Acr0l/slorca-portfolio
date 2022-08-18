@@ -37,7 +37,7 @@ const Hero = (props) => (
       </Link>
     </LeftSection>
     <RightSection>
-      <Img src={"/images/seba.jpeg"} alt="Sebastian Lorca's picture" />
+      <Img src={"/images/seba.jpeg"} alt="Sebastian Lorca's picture, monochrome" />
     </RightSection>
   </Section>
 );
