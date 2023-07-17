@@ -9,7 +9,7 @@ import {
   Div3,
   NavLink,
   SocialIcons,
-  Span,
+  Span
 } from "./HeaderStyles";
 
 const Header = () => (
@@ -45,17 +45,12 @@ const Header = () => (
           <NavLink>Technologies</NavLink>
         </Link>
       </li>
-      <li>
-        <Link href={"/blog"}>
-          <NavLink>Blog</NavLink>
-        </Link>
-      </li>
     </Div2>
     <Div3>
       <SocialIcons href="https://github.com/Acr0l" target="_blank">
         <AiFillGithub size={"2rem"} />
       </SocialIcons>
-      <SocialIcons href="https://www.instagram.com/5eb4_lg/" target="_blank">
+      <SocialIcons href="https://www.instagram.com/slorca_g/" target="_blank">
         <AiFillInstagram size={"2rem"} />
       </SocialIcons>
       <SocialIcons

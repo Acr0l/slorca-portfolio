@@ -10,7 +10,7 @@ import {
   LinkTitle,
   Slogan,
   SocialContainer,
-  SocialIconsContainer,
+  SocialIconsContainer
 } from "./FooterStyles";
 
 const Footer = () => {
@@ -33,7 +33,7 @@ const Footer = () => {
             <AiFillGithub size={"2rem"} />
           </SocialIcons>
           <SocialIcons
-            href="https://www.instagram.com/5eb4_lg/"
+            href="https://www.instagram.com/slorca_g/"
             target="_blank"
           >
             <AiFillInstagram size={"2rem"} />

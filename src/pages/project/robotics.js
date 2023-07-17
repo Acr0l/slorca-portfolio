@@ -25,7 +25,7 @@ const Robotics = () => {
             myself with 3D design and programming, starting to participate in
             several regional and national competitions. I've also participated
             in a Science and Innovation Fair with{" "}
-            <a href="/projects/lookation" rel="noopener">
+            <a href="/projects/lookation.html" rel="noopener">
               Lookation
             </a>{" "}
             winning the best technological regional award.

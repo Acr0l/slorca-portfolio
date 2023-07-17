@@ -4,7 +4,7 @@ import { projects } from "../../constants/constants";
 import {
   Section,
   SectionDivider,
-  SectionTitle,
+  SectionTitle
 } from "../../styles/GlobalComponents";
 import {
   BlogCard,
@@ -16,7 +16,7 @@ import {
   ProjectLink,
   Tag,
   TagList,
-  TitleContent,
+  TitleContent
 } from "./ProjectsStyles";
 
 const Projects = () => (
@@ -26,7 +26,7 @@ const Projects = () => (
     <GridContainer>
       {projects.map(
         ({ id, image, title, description, tags, source, visit }) => (
-          <Link href={`/project/${id}`} key={id}>
+          <Link href={`/project/${id}.html`} key={id}>
             <a className={ProjectLink}>
               <BlogCard key={id}>
                 <Img src={image} alt={title} />

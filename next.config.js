@@ -5,7 +5,6 @@ module.exports = {
   ) {
     return {
       "/": { page: "/" },
-      "/404": { page: "/404" },
       "/project/trm": { page: "/project/trm" },
       "/project/duam-talks": { page: "/project/duam-talks" },
       "/project/kimm": { page: "/project/kimm" },
